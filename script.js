@@ -35,7 +35,7 @@ function calculator(){
 			set("plus","",0,"0",null);
 			result = 0;
 		}
-		else {operator = input}
+		else  if (input != "equal") {operator = input}
 		reset = false;
 	}
 		//2. When the new input must not replace the current display but be added (additional number to already displayed numbers or operator after input numbers). Hence "continue"
